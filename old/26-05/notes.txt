@@ -1,0 +1,5 @@
+Git -
+git add *
+git add :/
+
+https://codeshare.io/DZ1O7E

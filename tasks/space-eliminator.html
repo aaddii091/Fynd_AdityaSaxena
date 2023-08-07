@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Eliminator</title>
+</head>
+<body>
+    <script>
+        //debugger;
+        //sentence = prompt("Enter your string with as many spaces as you want!");
+        var sentence = " Hii      there, my   self  a         octopus";
+        var splittedSentence = sentence.split(" ");
+        var i=0;
+        var finalSentence = "";
+        while (i<splittedSentence.length){
+            if (splittedSentence[i]!==" " || splittedSentence[i]!==""){
+                //document.write(splittedSentence[i].trim()+" ");
+                
+                finalSentence = finalSentence + splittedSentence[i].trim()+" ";
+            }
+
+            i=i+1;
+        }
+        
+        console.log("Original Sentence: ",sentence);
+        console.log("Splitted Sentence: ",splittedSentence);
+        console.log("Removed Spaces Sentence: ",finalSentence);
+    </script>
+</body>
+</html>

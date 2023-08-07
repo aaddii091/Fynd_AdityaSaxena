@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            box-sizing: border-box;
+            padding: 0%;
+            margin: 0%;
+        }
+        #container {
+            display: grid;
+            grid-template-rows: 0.2fr 1fr 1fr;
+            text-align: center;
+            height: 100vh;
+        }
+
+        #header{
+            grid-area: 'header';
+            background-color: rgb(100, 100, 218);
+        }
+
+        #content{
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            background-color: rgb(100, 140, 218);
+        }
+
+        #box {
+            grid-area: box;
+            background-color: rgb(100, 240, 218);
+        }
+
+        #section {
+            grid-area: section;
+            background-color: rgb(100, 240, 218);
+        }
+        #sidebar{
+            grid-area: 'sidebar';
+            background-color: rgb(100, 180, 218);
+        }
+        #footer{
+            grid-area: 'footer';
+            background-color: rgb(100, 220, 218);
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">Header</div>
+        <div id="content">
+            Content
+            <div id="box">
+                Box
+                <div id="box1">Box 1</div>
+                <div id="box2">Box 2</div>
+                <div id="box3">Box 3</div>
+            </div>  
+            <div id="section">Section</div>
+        </div>
+        <div id="sidebar">Side Bar</div>
+        <div id="footer">Footer</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+sentence = prompt("Enter your string with as many spaces as you want!");

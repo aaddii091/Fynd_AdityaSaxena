@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <style>
+        body {
+            margin: 0% 0% 0% 25%;
+            /* margin-right: auto; */
+        }
+
+        h1 {
+            margin: 5% 0% 0% 23%;
+        }
+
+        .content-table {
+            border-collapse: collapse;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+            margin: 25px 0;
+            font-size: 0.9em;
+            min-width: 400px;
+        }
+
+        .content-table thead tr {
+            background-color: #009879;
+            color: #ffffff;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        .content-table th,
+        .content-table td {
+            padding: 12px 15px;
+        }
+
+        .content-table tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+
+        .content-table tbody tr:nth-of-type(even){
+            background-color: #f3f3f3;
+        }
+
+        .content-table tbody tr:last-of-type{
+            border-bottom: 2px solid #009879;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Time-Table</h1>
+    </div>
+    <div id="timetable">
+        <table class="content-table">
+            <thead>
+                <tr>
+                    <th style="text-align: center;">Time / Days</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>07:15 AM</th>
+                    <td class="physics">Physics</td>
+                    <td class="english">English</td>
+                    <td class="english">English</td>
+                    <td class="maths">Maths</td>
+                    <td class="physics">Physics</td>
+                </tr>
+                <tr>
+                    <th>08:00 AM</th>
+                    <td class="physics">Physics</td>
+                    <td class="physics">Physics</td>
+                    <td class="maths">Maths</td>
+                    <td class="maths">Maths</td>
+                    <td class="chemistry">Chemistry</td>
+                </tr>
+                <tr>
+                    <th>08:45 AM</th>
+                    <td class="english">English</td>
+                    <td class="physics">Physics</td>
+                    <td class="maths">Maths</td>
+                    <td class="biology">Biology</td>
+                    <td class="biology">Biology</td>
+                </tr>
+                <tr>
+                    <th>09:30 AM</th>
+                    <th colspan="5"><h3><pre>------------  B  -  R  -  E  -  A  -  K  ------------</pre></h3></th>
+                </tr>
+                <tr>
+                    <th>10:00 AM</th>
+                    <td class="biology">Biology</td>
+                    <td class="biology">Biology</td>
+                    <td class="physics">Physics</td>
+                    <td class="chemistry">Chemistry</td>
+                    <td class="maths">English</td>
+                </tr>
+                <tr>
+                    <th>10:45 AM</th>
+                    <td class="chemistry">Chemistry</td>
+                    <td class="chemistry">Chemistry</td>
+                    <td class="physics">Physics</td>
+                    <td class="physics">Physics</td>
+                    <td class="biology">Biology</td>
+                </tr>
+                <tr>
+                    <th>11:30 AM</th>
+                    <td class="chemistry">Chemistry (PR)</td>
+                    <td class="chemistry">Chemistry (PR)</td>
+                    <td class="physics">Physics (PR)</td>
+                    <td class="physics">Physics (PR)</td>
+                    <td class="biology">Biology (PR)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

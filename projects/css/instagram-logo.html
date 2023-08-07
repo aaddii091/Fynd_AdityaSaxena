@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Logo</title>
+    <style>
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #logo {
+            width: 40rem;
+            height: 40rem;
+            background: linear-gradient(-40deg, #e59845 10%,#e6683c 25%,#dc2743 50%,#5752f5 100%,#bc1888 100%); 
+            border-radius: 6rem;
+        }
+
+        #square {
+            width: 28rem;
+            height: 28rem;
+            border: 2rem solid #ffffff;
+            border-radius: 6rem;
+            transform: translate(6rem, 6rem);
+        }
+
+        #circle-1 {
+            width: 16rem;
+            height: 16rem;
+            border: 2rem solid #ffffff;
+            border-radius: 10rem;
+            transform: translate(4rem, 4rem);
+        }
+
+        #circle-2 {
+            width: 0;
+            height: 0;
+            border: 2rem solid #ffffff;
+            border-radius: 2rem;
+            transform: translate(18.5rem, -14.5rem);
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div id="logo">
+        <div id="square">
+            <div id="circle-1"></div>
+            <div id="circle-2"></div>
+        </div>
+    </div>
+</body>
+</html>
